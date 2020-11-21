@@ -280,12 +280,23 @@ footer {
 /* portfolio list */
 /* buttons */
 button {
-    padding: 0;
+    padding: 6px 22px;
     border: none;
     font: inherit;
     color: inherit;
     background-color: transparent;
 }
+.button-list {
+    display: flex;
+    margin-top: 83px;
+    margin-left: 270px;
+    margin-right: 288px;
+}
+.button-list>.item:not(:last-child){
+    margin-right: 8px;
+}
+
+
 .portfolio button {
     color: var(--title-text-color);
     font-weight: 500;
