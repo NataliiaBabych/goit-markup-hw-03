@@ -240,6 +240,7 @@ margin-right: 50px;
     display: flex;
 }
 .team-list .item {
+    width: 270px;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
 
@@ -248,8 +249,12 @@ margin-right: 50px;
     margin-right: 30px;
 }
 
+.item-name {
+padding-top: 30px;
+padding-bottom: 30px;
+}
 .team h3 {
-    margin-top: 30px;
+    margin-top: 0px;
     margin-bottom: 10px;
 
     color: var(--title-text-color);
@@ -261,7 +266,7 @@ margin-right: 50px;
 }
 .team p {
     margin-top: 0px;
-    margin-bottom: 30px;
+    margin-bottom: 0px;
 
     color: var(--main-text-color);
     font-weight: 400;
@@ -278,14 +283,17 @@ footer {
 
 }
 
-.address {
-    padding-top: 20px;
+.footer-address {
+    margin-top: 20px;
 }
 .footer-address>.item:not(:last-child) {
     margin-bottom: 9px;
 }
 
 .footer-address p {
+    margin-top: 0;
+    margin-bottom: 0;
+
     color: #FFFFFF;
     text-decoration: none;
     font-style: normal;
